@@ -1,6 +1,6 @@
 <?php
 // fetch channel fredflixceo server hit api json data
-$jsonURL = "https://its-ferdos-alom.top/fredflix.fun/ayna/api.json"; // Update JSON URL here
+$jsonURL = "https://raw.githubusercontent.com/byte-capsule/AynaOTT-Hls-Fetcher/main/AynaOTT_Hls_links_Static.Json"; // Update JSON URL here
 $channelsData = file_get_contents($jsonURL);
 $channels = json_decode($channelsData, true) ?? [];
 ?>
